@@ -14,7 +14,7 @@ public class Main {
                 System.out.println("*");
 
             }
-            for (count = 0; count < 10 - i * 2 ; count++) {
+            for (count = 0; count <  (N - 1)* 2 - i * 2 ; count++) {
 
                 System.out.print("*");
             }
