@@ -5,8 +5,8 @@ public class Main {
 
         for (i = 0; i < 6; i++) {
             System.out.println();
-            c=i*2;
-            for (j = 0; j < c-1; j++) {
+
+            for (j = 0; j < i; j++) {
                 System.out.println("*");
 
             }
