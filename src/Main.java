@@ -1,9 +1,13 @@
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int i, j;
-        int count;
+        int count, N;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the no of rows : ");
+        N=sc.nextInt();
 
-        for (i = 0; i < 6; i++) {
+        for (i = 0; i < N; i++) {
             System.out.println();
 
             for (j = 0; j < i; j++) {
