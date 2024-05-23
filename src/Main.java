@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         int i, j;
-        int count,c;
+        int count;
 
         for (i = 0; i < 6; i++) {
             System.out.println();
