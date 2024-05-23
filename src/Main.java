@@ -8,7 +8,6 @@ public class Main {
         N=sc.nextInt();
 
         for (i = 0; i < N; i++) {
-            System.out.println();
 
             for (j = 0; j < i; j++) {
                 System.out.println("*");
@@ -18,7 +17,7 @@ public class Main {
 
                 System.out.print("*");
             }
-
+            System.out.println();
         }
 
     }
